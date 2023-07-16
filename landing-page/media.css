@@ -300,13 +300,21 @@
     max-width: 37rem;
     padding: 0;
   }
+
+  .pop-ser > .container {
+    padding: 2rem;
+  }
+
+  .pop-ser > .container > p {
+    padding: 2rem;
+  }
   .-lsts > p > span {
     font-size: 1rem;
   }
 
   .elps1,
   .elps2 {
-    bottom: 15rem;
+    bottom: 12rem;
   }
 
   .intr-hdn > h2 {
