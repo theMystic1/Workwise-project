@@ -1,455 +1,3 @@
-/*
-
-@media (max-width: 62em) {
-  .section-rgt {
-    margin-top: 4rem;
-  }
-  .-lsts > h3 {
-    font-size: 1.2rem;
-  }
-  .-lsts > p > span {
-    font-size: 1.2rem;
-  }
-  .elps {
-    left: -1rem;
-    bottom: 17rem;
-  }
-
-  .elps2 {
-    right: -1rem;
-    bottom: 18rem;
-  }
-}
-@media (max-width: 51.25em) {
-  .top-bar {
-    width: 100%;
-  }
-  .left-section > h2 {
-    font-size: 1rem;
-  }
-  .desc-img {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .section-lft {
-    max-width: 56rem;
-  }
-
-  .-hdng {
-    max-width: 56rem;
-  }
-  .-hdng > h3 {
-    font-size: 6rem;
-  }
-
-  input {
-    left: 5rem;
-  }
-
-  .spn1 {
-    left: 6rem;
-    z-index: 5;
-  }
-
-  .spn2 {
-    left: 45rem;
-  }
-
-  .-btn > button {
-    margin: 2rem 20rem 1rem;
-  }
-
-  .section-rgt {
-    max-width: 56rem;
-    margin-top: 1rem;
-  }
-
-  .section-rgt > img {
-    width: 100%;
-  }
-
-  .img-txtx > p {
-    font-size: 1.2rem;
-  }
-
-  .img-txtx > h3 {
-    font-size: 1.2rem;
-  }
-  .elps {
-    left: -1.3rem;
-    bottom: 18rem;
-  }
-  .lists > div h3 {
-    font-size: 1.6rem;
-  }
-  .lists > div > ul > li {
-    font-size: 1.2rem;
-    list-style: 150%;
-  }
-
-  .intr-hdn h2 {
-    font-size: 1.5rem;
-  }
-  .intr-bdy p {
-    font-size: 1.2rem;
-  }
-  .intr-bdy > span h3 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 41em) {
-  .top-bar {
-    width: 100%;
-  }
-  .btnn {
-    white-space: nowrap;
-    font-size: 1rem;
-  }
-
-  .left-section {
-    max-width: 14rem;
-  }
-
-  .left-section h2 {
-    font-size: 1.4rem;
-  }
-
-  .middle-section ul li {
-    font-size: 1.3rem;
-    margin: 0 1.2rem;
-  }
-
-  .right-section {
-    max-width: 28rem;
-  }
-
-  .right-section p:first-child,
-  .right-section p:nth-child(2) {
-    font-size: 1.2rem;
-  }
-
-  .right-section p:nth-child(2) {
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .-hdng > .mqry {
-    font-size: 3.9rem;
-    text-align: center;
-  }
-
-  .elps1,
-  .elps2-0 {
-    width: 2rem;
-    height: 2rem;
-    bottom: 14rem;
-  }
-
-  .elps1 {
-    left: -1rem;
-  }
-  .elps2-0 {
-    right: -1rem;
-  }
-
-  .elps1 > img,
-  .elps2-0 > img {
-    max-width: 1rem;
-  }
-
-  .flex-box {
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr;
-  }
-  .ntwis {
-    flex-direction: column;
-  }
-  .rgt-sec {
-    margin: 0 auto;
-    padding-left: 3rem;
-  }
-  .hidn img {
-    display: none;
-  }
-  .spnn > img {
-    max-width: 50rem;
-  }
-}
-
-@media (max-width: 32.5em) {
-  .bar {
-    max-width: 100%;
-    height: 6rem;
-  }
-  .left-section {
-    max-width: 12rem;
-  }
-
-  .left-section h2 {
-    font-size: 1rem;
-  }
-  .middle-section ul li {
-    font-size: 1.1rem;
-    margin: 0 1rem;
-  }
-
-  .right-section {
-    max-width: 20rem;
-  }
-
-  .right-section p:first-child,
-  .right-section p:nth-child(2) {
-    font-size: 1.2rem;
-  }
-
-  .right-section p:nth-child(2) {
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .lsts,
-  .section-rgt {
-    display: none;
-  }
-
-  .lsts2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 2rem;
-  }
-  .lsts2 > div > .mqrry {
-    font-size: 1.3rem;
-  }
-
-  /* .lsts2 .mqrry > ul > li {
-    font-size: 0.2rem;
-  } 
-}
-/* 
-@media (max-width: 28.2em) {
-  main {
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  .top-bar {
-    box-sizing: border-box;
-    width: 100%;
-    /* max-width: 39rem; 
-    margin: 0;
-    /* justify-content: space-between; 
-    overflow: hidden;
-  }
-  .middle-section ul {
-    display: none;
-  }
-  .right-section p:first-child {
-    display: none;
-  }
-  .right-section p:nth-child(2) {
-    padding-right: 5rem;
-  }
-
-  .lstoo {
-    display: flex;
-    margin-right: 8rem;
-    margin-left: rem;
-  }
-
-  .lstoo ion-icon {
-    font-size: 3rem;
-  }
-
-  .right-section > {
-    margin-right: rem;
-  }
-  /* .ddxc {
-  
-    width: 100%;
-    /* border: none; 
-    margin: 0 auto;
-  } 
-  .left-section {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-  .hnbv {
-    max-width: 35rem;
-    margin: 0 auto;
-  }
-  .hnbv > .mgrr {
-    font-size: 3rem;
-    text-align: start;
-  }
-  .section-rgt {
-    display: none;
-  }
-
-  input {
-    max-width: 35rem;
-    margin-left: 2.5rem;
-  }
-
-  .nnn {
-    max-width: 20rem;
-  }
-  .nnn > img {
-    width: 100%;
-  }
-
-  .spn1 {
-    left: 9rem;
-  }
-  .spn2 {
-    left: 39rem;
-  }
-
-  .lsty {
-    display: none;
-  }
-  .ppp > h2 {
-    font-size: 2.4rem;
-  }
-
-  .ls > p > span {
-    font-size: 1rem;
-  }
-
-  .img-txtx {
-    display: none;
-  }
-  .imgsd {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .imgsd > h3 {
-    font-size: 2rem;
-  }
-  .imgsd > p {
-    font-size: 1.8rem;
-  }
-
-  .side-bar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 65%;
-    background-color: #fff;
-    z-index: 500;
-    /* margin: 0 auto; 
-  }
-
-  .side-bar > button,
-  .side-bar > p {
-    margin: 3rem;
-  }
-  .side-bar > ul {
-    border-bottom: 0.2rem solid gray;
-  }
-
-  .side-bar > button {
-    padding: 0.5em 1em;
-    font-size: 2.5em;
-    background-color: #3944bc;
-    border-radius: 0.5rem;
-    color: #fff;
-    border: none;
-  }
-
-  .side-bar > p > a {
-    font-size: 2.4rem;
-    text-decoration: none;
-    color: rgb(134, 133, 133);
-  }
-  .side-bar > ul > li {
-    list-style: none;
-    line-height: 6rem;
-    padding-left: 3rem;
-  }
-  .side-bar > ul > li > a {
-    text-decoration: none;
-    font-size: 2.4rem;
-    color: #000;
-  }
-
-  .logo {
-    position: absolute;
-    bottom: 16rem;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-  }
-
-  .logo h2 {
-    margin-left: 3rem;
-    border: 0.1rem solid #3944bc;
-    border-radius: 0.6rem;
-    padding: 0.5rem 0.8rem;
-    color: #3944bc;
-    font-size: 1.5rem;
-  }
-  .hidden {
-    display: none;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(3px);
-    z-index: 5;
-  }
-  .lsts,
-  .section-rgt {
-    display: none;
-  }
-
-  .ddxxc {
-    max-width: 39rem;
-  }
-
-  .flex-box > div > img {
-    max-width: 5rem;
-  }
-  .flex-box > div > p {
-    font-size: 1.3rem;
-  }
-
-  .hide {
-    display: block;
-  }
-  .hide > div > span > .mqrry {
-    font-size: 2rem;
-    padding: 1.5rem 2rem;
-  }
-
-  .hide > div > ul {
-    display: none;
-  }
-  .lists > div > span {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .hide > div > span > ion-icon {
-    /* font-size: 2rem; 
-  }
-  .down-arr {
-    display: flex;
-    font-size: 2rem;
-    padding-right: 3rem;
-  }
-} */
-
 @media (max-width: 67.5em) {
   html {
     font-size: 56.25%;
@@ -627,8 +175,42 @@
 }
 
 @media (max-width: 33em) {
-  html {
-    font-size: 44%;
+  .hero {
+    padding: 2.4rem;
+  }
+
+  .lsty > .mbl-rem {
+    display: none;
+  }
+
+  .elps1,
+  .elps2 {
+    bottom: 15rem;
+  }
+
+  .ntwis {
+    padding: 2rem;
+  }
+
+  .intr-bdy {
+    max-width: 33rem;
+    margin: 0 auto;
+  }
+  .intr-bdy > span > h3,
+  .intr-bdy > span > ion-icon {
+    font-size: 1.8rem;
+  }
+
+  .intr-bdy > p {
+    font-size: 1.4rem;
+  }
+
+  .intr-hdn {
+    max-width: 33rem;
+  }
+
+  .intr-hdn h2 {
+    font-size: 2.4rem;
   }
 
   .flex-box > .grid2 {
@@ -656,6 +238,14 @@
     /* text-align: center; */
   }
 
+  .-txt-box > input {
+    width: 30rem;
+    border-radius: 0.9rem;
+  }
+  .spn2 {
+    left: 26rem;
+  }
+
   .img-txtx > h3 {
     font-size: 3.2rem;
     padding: 2rem 0;
@@ -669,7 +259,7 @@
     grid-template-columns: 1fr;
     /* gap: 1rem; */
     row-gap: 1rem;
-    padding: 2rem;
+    padding: 0 2rem;
   }
 
   .lists > .container > div > span {
@@ -680,6 +270,7 @@
 
   .lists > .container > div > span > ion-icon {
     font-size: 2rem;
+    padding-right: 1rem;
   }
 
   .down-arr {
@@ -748,6 +339,13 @@
 
   .lsts > .container > div > span h3 {
     font-size: 2rem;
+  }
+  .-txt-box > input {
+    width: 26rem;
+    border-radius: 0.9rem;
+  }
+  .spn2 {
+    left: 23rem;
   }
 }
 
