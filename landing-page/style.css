@@ -133,6 +133,7 @@ ul span:hover {
 .icon-mobile-nav {
   width: 4.8rem;
   height: 4.8rem;
+  color: #393b3a;
 }
 
 .icon-mobile-nav[name='close-outline'] {
@@ -482,7 +483,6 @@ input::placeholder {
 .img-txtx > img {
   width: 100%;
 }
-
 .img-txtx > p {
   font-size: 1.6rem;
   /* text-align: center; */

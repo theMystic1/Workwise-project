@@ -679,7 +679,7 @@
   }
 
   .lists > .container > div > span > ion-icon {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .down-arr {
@@ -748,5 +748,69 @@
 
   .lsts > .container > div > span h3 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 21em) {
+  .tob-bar {
+    max-width: 33rem;
+  }
+  .desc-img {
+    padding: 3.2rem 0;
+  }
+  .hero {
+    max-width: 33rem;
+    margin: 0 auto;
+    padding: 2.2rem;
+  }
+
+  .section-lft {
+    max-width: 30rem;
+  }
+
+  .hnbv > .mqry {
+    font-size: 2.4rem;
+  }
+  .-txt-box > input {
+    width: 26rem;
+    border-radius: 0.9rem;
+  }
+
+  .spn2 {
+    left: 23rem;
+  }
+
+  .-lsts > .mbl-rem {
+    display: none;
+  }
+
+  .-btn button {
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .elps1,
+  .elps2 {
+    bottom: 12rem;
+  }
+
+  .ntwis {
+    padding: 1rem;
+  }
+  .ntwis > .container {
+    margin: 0 auto;
+  }
+
+  .intr-hdn h2 {
+    font-size: 2rem;
+  }
+
+  .lft-sec {
+    padding: 1.8rem;
+    max-width: 40rem;
+  }
+  .intr-bdy {
+    max-width: 40rem;
+    margin: 0;
   }
 }
