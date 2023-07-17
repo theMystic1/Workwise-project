@@ -1,0 +1,68 @@
+@media (max-width: 58em) {
+  .login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 9.6rem; */
+    /* margin: 0 auto; */
+  }
+  .parag {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 47em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-login-section {
+    padding: 4.8rem;
+    height: 80vh;
+  }
+  .hero-section-right {
+    display: none;
+  }
+
+  .lgn {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .hero-login-section {
+    max-width: 40em;
+  }
+
+  #name,
+  #password {
+    padding: 1rem 3rem;
+  }
+
+  #name::placeholder,
+  #password::placeholder {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .login-app {
+    padding: 1.4rem 6rem;
+
+    font-size: 1.5rem;
+  }
+
+  .img--abs {
+    width: 2rem;
+  }
+
+  .absolute > img {
+    width: 2rem;
+  }
+  .absolute {
+    top: 1.5rem;
+  }
+}

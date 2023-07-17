@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.login-section {
+  padding: 4rem;
+  margin: 0 auto;
+  background-color: #dcdcdc;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.hero-login-section {
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 2rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.hero-section-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lgn {
+  font-size: 3rem;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+/*  */
+.hero-section-right {
+  flex: 1;
+}
+
+.img {
+  width: 100%;
+}
+
+#name:focus,
+#password:focus {
+  outline: none;
+}
+
+#name,
+#password {
+  padding: 1rem 5rem;
+  border-radius: 5rem;
+  border: 0.1rem solid #b9b8b8;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.login-btn {
+  padding: 1rem 4.8rem;
+  border-radius: 5rem;
+  color: #808080;
+  border: 0.1rem solid #b9b8b8;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.login-btn:hover {
+  background-color: #9747ff;
+  color: #ffffff;
+}
+
+.orr {
+  color: #808080;
+  font-size: 2.4rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 1rem;
+  left: 1.2rem;
+}
+
+.bi {
+  font-size: 1.4rem;
+}
+
+.img-rel {
+  position: relative;
+}
+
+.img-abs {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 2rem;
+  right: 1rem;
+  color: #ffffff;
+  background: linear-gradient(270deg, #30ab5c 0%, rgba(14, 114, 54, 0) 100%);
+}
+
+.login-app {
+  padding: 1rem 8rem;
+  border-radius: 5rem;
+  color: #808080;
+  border: 0.1rem solid #b9b8b8;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.login-app:hover {
+  background-color: #9747ff;
+  color: #ffffff;
+  translate: 0.2rem;
+}
+
+.btn-app-ggl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.img--abs {
+  position: absolute;
+  left: 2rem;
+}
+
+.parag {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.parag > a {
+  text-decoration: none;
+  color: #9747ff;
+}

@@ -1,0 +1,79 @@
+@media (max-width: 50em) {
+  .img-area {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 39.5em) {
+  .message {
+    font-size: 2rem;
+  }
+
+  .job1,
+  .job2 {
+    max-width: 20rem;
+  }
+
+  .parag {
+    font-size: 1.4rem;
+  }
+
+  .absolute {
+    top: 5rem;
+    left: 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 29.4em) {
+  .dmessge {
+    font-size: 1.3rem;
+  }
+
+  .job1,
+  .job2 {
+    max-width: 16rem;
+  }
+
+  .absolute {
+    top: 5rem;
+    left: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .parag {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 23.5em) {
+  html {
+    font-size: 50%;
+  }
+  .job1,
+  .job2 {
+    max-width: 12rem;
+  }
+
+  .absolute {
+    top: 5rem;
+    left: 2rem;
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 2.4rem;
+    margin-left: 1.5rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+}
