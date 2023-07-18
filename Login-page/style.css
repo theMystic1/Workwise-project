@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #dcdcdc;
+  background-color: #d2d1fc;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
   align-items: center;
@@ -20,13 +20,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 9.6rem;
+  padding: 2rem 9.6rem;
   max-width: 80rem;
   margin: 0 auto;
 }
 
 .hero-login-section {
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -3,6 +3,10 @@
     flex-direction: column;
     gap: 3rem;
   }
+
+  .type-hero {
+    background-color: transparent;
+  }
 }
 
 @media (max-width: 39.5em) {
@@ -16,7 +20,8 @@
   }
 
   .parag {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
   }
 
   .absolute {
@@ -33,7 +38,7 @@
 
   .job1,
   .job2 {
-    max-width: 16rem;
+    max-width: 20rem;
   }
 
   .absolute {
@@ -49,6 +54,7 @@
 
   .parag {
     font-size: 1rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -56,9 +62,16 @@
   html {
     font-size: 50%;
   }
+
+  .sign-up {
+    padding: 4.8rem;
+  }
+
+  .type-hero {
+  }
   .job1,
   .job2 {
-    max-width: 12rem;
+    max-width: 20rem;
   }
 
   .absolute {
@@ -74,6 +87,6 @@
   }
 
   .message {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 }

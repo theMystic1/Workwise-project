@@ -1,4 +1,8 @@
 @media (max-width: 58em) {
+  html {
+    font-size: 50%;
+  }
+
   .login-section {
     display: flex;
     align-items: center;
@@ -6,24 +10,31 @@
     /* padding: 9.6rem; */
     /* margin: 0 auto; */
   }
-  .parag {
-    padding-bottom: 2rem;
-  }
 }
 
 @media (max-width: 47em) {
   html {
     /* font-size: 50%; */
   }
+  body {
+    background-color: #d2d1fc;
+  }
+
+  .login-section {
+    padding: 3rem 4.8rem;
+  }
 
   .hero-login-section {
-    background-color: #dcdcdc;
+    background-color: #d2d1fc;
     max-width: 70rem;
     padding: 4.8rem;
     /* height: 60vh; */
   }
   .hero-section-right {
     display: none;
+  }
+  .hero-section-left {
+    max-width: 100%;
   }
 
   .lgn {
@@ -39,6 +50,10 @@
   .hero-login-section {
     max-width: 60rem;
     height: 100%;
+  }
+
+  .hero-section-left {
+    max-width: 100%;
   }
 
   #name,
