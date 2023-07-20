@@ -9,8 +9,9 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'inter', Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  color: #343a40;
 }
 
 .top-bar {
@@ -242,7 +243,7 @@ input::placeholder {
   font-weight: 600;
 }
 
-.-btn > button {
+.-btn > a > button {
   background-color: #3944bc;
   padding: 1.2rem 3rem;
   border: none;
