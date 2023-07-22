@@ -185,7 +185,7 @@
 
   .elps1,
   .elps2 {
-    bottom: 5rem;
+    top: rem;
   }
 
   .ntwis {
@@ -210,7 +210,7 @@
   }
 
   .intr-hdn h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .flex-box > .grid2 {
@@ -234,7 +234,7 @@
     width: 80%;
   }
   .img-txtx > p {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     /* text-align: center; */
   }
 
@@ -247,7 +247,7 @@
   }
 
   .img-txtx > h3 {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     padding: 2rem 0;
   }
 
@@ -259,7 +259,7 @@
     grid-template-columns: 1fr;
     /* gap: 1rem; */
     row-gap: 1rem;
-    padding: 0 2rem;
+    padding: 0 6.4rem;
   }
 
   .lists > .container > div > span {
@@ -292,6 +292,11 @@
 
   .pop-ser > .container > p {
     font-size: 3.2rem;
+  }
+
+  .footer > .container {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
 
@@ -339,6 +344,11 @@
 
   .img-txtx > p {
     font-size: 1.6rem;
+  }
+
+  .flex-box > .container > .icns22,
+  .flex-box > .container > .icns33 {
+    display: flex;
   }
 
   .lsts .container {
@@ -418,6 +428,15 @@
   .intr-bdy {
     max-width: 40rem;
     margin: 0;
+  }
+
+  .img-txtx > p {
+    font-size: 1rem;
+  }
+
+  .footer > .container {
+    display: flex;
+    flex-direction: column;
   }
 }
 
