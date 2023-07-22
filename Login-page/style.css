@@ -9,10 +9,10 @@ html {
 }
 
 body {
-  background-color: #d2d1fc;
   font-family: 'inter', Arial, Helvetica, sans-serif;
   margin: 0 auto;
   align-items: center;
+  background-color: #add8e6;
   height: 100vh;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .login-btn:hover {
-  background-color: #9747ff;
+  background-color: #0074d9;
   color: #ffffff;
 }
 
@@ -135,7 +135,7 @@ body {
 }
 
 .login-app:hover {
-  background-color: #9747ff;
+  background-color: #0074d9;
   color: #ffffff;
   translate: 0.2rem;
 }
@@ -161,5 +161,5 @@ body {
 
 .parag > a {
   text-decoration: none;
-  color: #9747ff;
+  color: #0074d9;
 }
