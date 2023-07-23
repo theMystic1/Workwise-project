@@ -222,6 +222,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .flex-box > .grid2 > p {
+    font-size: 1.4rem;
+  }
+
   .flex-box > .container > .icns22,
   .flex-box > .container > .icns33 {
     display: flex;
