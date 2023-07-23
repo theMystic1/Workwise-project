@@ -18,7 +18,7 @@ FONT SIZE SYSTEM (px)
 
 body {
   font-family: 'inter', Arial, Helvetica, sans-serif;
-  color: #343a40;
+  color: #161616;
 }
 
 header {
@@ -29,7 +29,7 @@ header {
   left: 0;
   right: 0;
   height: 8rem;
-  background-color: #fff;
+  background-color: #add8e6;
   z-index: 100;
 }
 
@@ -43,26 +43,26 @@ header {
 
 .logo > h2:hover {
   border: 0.1rem solid #fff;
-  background-color: #3944bc;
+  background-color: #add8e6;
   color: #fff;
   font-weight: 400;
 }
 
 .logo > h2 {
-  border: 0.2rem solid #3944bc;
+  /* border: 0.2rem solid #3944bc; */
   border-radius: 0.6rem;
-  padding: 0.4rem 0.8rem;
-  color: #3944bc;
-  font-size: 2.4rem;
+  color: #0074d9;
+  font-size: 2.8rem;
   transition: all 600ms;
   cursor: pointer;
+  letter-spacing: -0.4rem;
   /* margin: 0 auto; */
 }
 
 .btn {
   text-decoration: none;
   font-size: 2rem;
-  background-color: #3944bc;
+  background-color: #0074d9;
   color: #fff;
   border-radius: 0.5rem;
   transition: all 600ms;
@@ -138,7 +138,7 @@ main {
 
 .origin- {
   padding: 3.2rem;
-  background-color: #d2d1fc;
+  background-color: #dcdcdc;
   border-radius: 0.5rem;
 }
 
@@ -153,7 +153,7 @@ main {
 }
 
 .support {
-  background-color: #d2d1fc;
+  background-color: #add8e6;
   padding: 3.2rem;
   border-radius: 0.5rem;
 }

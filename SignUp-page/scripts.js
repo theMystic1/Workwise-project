@@ -12,7 +12,7 @@ const imgArea = document.querySelector('.img-area');
 const addEvents = function (close, open, img) {
   close.classList.remove('hidden');
   open.classList.add('hidden');
-  img.style.border = '2px solid #9747ff';
+  img.style.border = '2px solid #0074D9';
   img.style.backgroundColor = '#b6b4b7';
   console.log(close1);
 };
@@ -33,11 +33,11 @@ img1.addEventListener('click', function () {
   addClickEvent(close1, open1, img1);
   remEvents(close2, open2, img2);
   btn.textContent = 'Join as a client';
-  btn.style.backgroundColor = '#9747ff';
+  btn.style.backgroundColor = '#0074D9';
 });
 img2.addEventListener('click', function () {
   addClickEvent(close2, open2, img2);
   remEvents(close1, open1, img1);
   btn.textContent = 'Join as Freelancer';
-  btn.style.backgroundColor = '#9747ff';
+  btn.style.backgroundColor = '#0074D9';
 });

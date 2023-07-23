@@ -15,7 +15,7 @@ body {
 .sign-up {
   padding: 9.6rem;
   /* margin: 0 auto; */
-  background-color: #d2d1fc;
+  background-color: #add8e6;
   height: 100vh;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .spnnn {
-  color: #9747ff;
+  color: #0074d9;
 }
 
 .img-area {
@@ -66,11 +66,12 @@ body {
   border: 0.2rem solid gray;
   border-radius: 1rem;
   transition: all 500ms ease-in;
+  background-color: #fff;
 }
 
 .img1:hover,
 .img2:hover {
-  border: 0.2rem solid #9747ff;
+  border: 0.2rem solid #0074d9;
 }
 
 .btn {
@@ -91,7 +92,7 @@ body {
 
 .parag > a {
   text-decoration: none;
-  color: #9747ff;
+  color: #0074d9;
 }
 
 .absolute {
@@ -117,7 +118,7 @@ body {
 
 .close,
 .close1 {
-  color: #9747ff;
+  color: #0074d9;
 }
 
 .hidden {
