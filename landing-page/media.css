@@ -63,6 +63,7 @@
   }
   .img-txtx {
     align-items: start;
+    justify-content: start;
   }
 
   .img-txtx > h3 {
@@ -192,13 +193,17 @@
     padding: 2rem;
   }
 
+  .ntwis > .container {
+    align-items: start;
+  }
+
   .intr-bdy {
     max-width: 33rem;
     margin: 0 auto;
   }
   .intr-bdy > span > h3,
   .intr-bdy > span > ion-icon {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .intr-bdy > p {
@@ -217,6 +222,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .flex-box > .container > .icns22,
+  .flex-box > .container > .icns33 {
+    display: flex;
+  }
+
   .imgsd {
     display: none;
   }
@@ -228,10 +238,11 @@
 
   .img-txtx {
     align-items: center;
+    text-align: start;
   }
 
   .img-txtx > img {
-    width: 80%;
+    width: 100%;
   }
   .img-txtx > p {
     font-size: 1.6rem;
@@ -319,7 +330,7 @@
 
   .elps1,
   .elps2 {
-    bottom: 12rem;
+    bottom: 14rem;
   }
 
   .intr-hdn > h2 {
@@ -339,16 +350,17 @@
   }
 
   .img-txtx > h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    /* padding: 0; */
   }
 
   .img-txtx > p {
     font-size: 1.6rem;
+    padding-left: 1rem;
   }
 
-  .flex-box > .container > .icns22,
-  .flex-box > .container > .icns33 {
-    display: flex;
+  .flex-box > .grid2 > div > p {
+    font-size: 1.4rem;
   }
 
   .lsts .container {
@@ -407,7 +419,7 @@
 
   .elps1,
   .elps2 {
-    bottom: 12rem;
+    bottom: 13rem;
   }
 
   .ntwis {
@@ -431,7 +443,7 @@
   }
 
   .img-txtx > p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .footer > .container {

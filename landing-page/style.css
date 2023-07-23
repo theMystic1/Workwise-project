@@ -491,7 +491,7 @@ input::placeholder {
   display: flex;
   /* align-items: center; */
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   /* max-width: 45rem;
   margin-bottom: 5rem; */
 }
